@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Try it!</title>
+    <script type="text/javascript">
+        var image_tracker = 'fir';
+        function change() {
+            var image = document.getElementById('sample');
+            if (image_tracker == 'fir') {
+                image.src = "2.jpg";
+                image_tracker = 'sec';
+            }else if (image_tracker == 'sec') {
+                image.src = "3.jpg";
+                image_tracker = 'thi';
+            }else if (image_tracker== 'thi') {
+                image.src = "4.jpg";
+                image_tracker = 'forth';
+            } else{
+                alert("it is the end!");
+            }
+        }
+    </script>
+    <style>
+        #remind {width: 200px; hight: 100px; background: azure; border: azure; display: none;}
+        #bigtital{font-size: 300%;}
+    </style>
+</head>
+
+<body>
+<hi id = "bigtital" onmouseover="remind.style.display='block';" onmouseout="remind.style.display='none';">
+    result!
+</hi>
+<img src="1.jpg" alt="sample image" id="sample" style="width: 100%" onclick="change()" onmouseover="remind.style.display='block';" onmouseout="remind.style.display='none';">
+<div id = "remind">
+    Click the picture for the next page!
+</div>
+</body>
+</html>

@@ -1,0 +1,222 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Bold;
+\f3\fnil\fcharset0 Menlo-BoldItalic;\f4\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red235\green235\blue235;\red0\green0\blue254;\red0\green0\blue109;
+\red15\green112\blue3;\red82\green0\blue103;\red55\green113\blue112;\red103\green104\blue52;}
+{\*\expandedcolortbl;;\csgenericrgb\c92157\c92157\c92157;\csgenericrgb\c0\c0\c99608;\csgenericrgb\c0\c0\c42745;
+\csgenericrgb\c5882\c43922\c1176;\csgenericrgb\c32157\c0\c40392;\csgenericrgb\c21569\c44314\c43922;\csgenericrgb\c40392\c40784\c20392;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13060\viewh8900\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 //here is a sample version of the web page. i hope it is basically what it should be. i have find some nice example code on codepen, but all of them include css language code which makes me unable to understand.\
+//let me know which parts should be improved. i will do me best but i am not able to guarantee i can do it. \
+//the following is the code inside the html file.
+\fs24 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1 \cf0 \cb2 <!DOCTYPE 
+\f2\b \cf3 html
+\f1\b0 \cf0 >\cb1 \
+\cb2 <
+\f2\b \cf4 html \cf3 lang=\cf5 "en"
+\f1\b0 \cf0 >\cb1 \
+\cb2 <
+\f2\b \cf4 head
+\f1\b0 \cf0 >\cb1 \
+    \cb2 <
+\f2\b \cf4 meta \cf3 charset=\cf5 "UTF-8"
+\f1\b0 \cf0 >\cb1 \
+    \cb2 <
+\f2\b \cf4 title
+\f1\b0 \cf0 >\cb1 Try it!\cb2 </
+\f2\b \cf4 title
+\f1\b0 \cf0 >\cb1 \
+    \cb2 <
+\f2\b \cf4 script \cf3 type=\cf5 "text/javascript"
+\f1\b0 \cf0 >\cb1 \
+        
+\f2\b \cf4 var 
+\f3\i \cf6 image_tracker 
+\f1\i0\b0 \cf0 = 
+\f2\b \cf5 'fir'
+\f1\b0 \cf0 ;\
+        
+\f2\b \cf4 function 
+\f4\i\b0 \cf0 change
+\f1\i0 () \{\
+            
+\f2\b \cf4 var 
+\f1\b0 \cf7 image \cf0 = 
+\f3\i\b \cf6 document
+\f1\i0\b0 \cf0 .\cf8 getElementById\cf0 (
+\f2\b \cf5 'sample'
+\f1\b0 \cf0 );\
+            
+\f2\b \cf4 if 
+\f1\b0 \cf0 (
+\f3\i\b \cf6 image_tracker 
+\f1\i0\b0 \cf0 == 
+\f2\b \cf5 'fir'
+\f1\b0 \cf0 ) \{\
+                \cf7 image\cf0 .
+\f2\b \cf6 src 
+\f1\b0 \cf0 = 
+\f2\b \cf5 "2.jpg"
+\f1\b0 \cf0 ;\
+                
+\f3\i\b \cf6 image_tracker 
+\f1\i0\b0 \cf0 = 
+\f2\b \cf5 'sec'
+\f1\b0 \cf0 ;\
+            \}
+\f2\b \cf4 else if 
+\f1\b0 \cf0 (
+\f3\i\b \cf6 image_tracker 
+\f1\i0\b0 \cf0 == 
+\f2\b \cf5 'sec'
+\f1\b0 \cf0 ) \{\
+                \cf7 image\cf0 .
+\f2\b \cf6 src 
+\f1\b0 \cf0 = 
+\f2\b \cf5 "3.jpg"
+\f1\b0 \cf0 ;\
+                
+\f3\i\b \cf6 image_tracker 
+\f1\i0\b0 \cf0 = 
+\f2\b \cf5 'thi'
+\f1\b0 \cf0 ;\
+            \}
+\f2\b \cf4 else if 
+\f1\b0 \cf0 (
+\f3\i\b \cf6 image_tracker
+\f1\i0\b0 \cf0 == 
+\f2\b \cf5 'thi'
+\f1\b0 \cf0 ) \{\
+                \cf7 image\cf0 .
+\f2\b \cf6 src 
+\f1\b0 \cf0 = 
+\f2\b \cf5 "4.jpg"
+\f1\b0 \cf0 ;\
+                
+\f3\i\b \cf6 image_tracker 
+\f1\i0\b0 \cf0 = 
+\f2\b \cf5 'forth'
+\f1\b0 \cf0 ;\
+            \} 
+\f2\b \cf4 else
+\f1\b0 \cf0 \{\
+                
+\f4\i alert
+\f1\i0 (
+\f2\b \cf5 "it is the end!"
+\f1\b0 \cf0 );\
+            \}\
+        \}\
+    \cb2 </
+\f2\b \cf4 script
+\f1\b0 \cf0 >\cb1 \
+    \cb2 <
+\f2\b \cf4 style
+\f1\b0 \cf0 >\cb1 \
+        
+\f2\b \cf4 #remind 
+\f1\b0 \cf0 \{
+\f2\b \cf3 width
+\f1\b0 \cf0 : \cf3 200
+\f2\b \cf5 px
+\f1\b0 \cf0 ; 
+\f2\b \cf3 hight
+\f1\b0 \cf0 : \cf3 100
+\f2\b \cf5 px
+\f1\b0 \cf0 ; 
+\f2\b \cf3 background
+\f1\b0 \cf0 : 
+\f2\b \cf5 azure
+\f1\b0 \cf0 ; 
+\f2\b \cf3 border
+\f1\b0 \cf0 : 
+\f2\b \cf5 azure
+\f1\b0 \cf0 ; 
+\f2\b \cf3 display
+\f1\b0 \cf0 : 
+\f2\b \cf5 none
+\f1\b0 \cf0 ;\}\
+        
+\f2\b \cf4 #bigtital
+\f1\b0 \cf0 \{
+\f2\b \cf3 font-size
+\f1\b0 \cf0 : \cf3 300\cf0 %;\}\
+    \cb2 </
+\f2\b \cf4 style
+\f1\b0 \cf0 >\cb1 \
+\cb2 </
+\f2\b \cf4 head
+\f1\b0 \cf0 >\cb1 \
+\
+\cb2 <
+\f2\b \cf4 body
+\f1\b0 \cf0 >\cb1 \
+\cb2 <
+\f2\b \cf4 hi \cf3 id = \cf5 "bigtital" \cf3 onmouseover=\cf5 "
+\f1\b0 \cf0 \cb1 remind.
+\f2\b \cf6 style
+\f1\b0 \cf0 .
+\f2\b \cf6 display
+\f1\b0 \cf0 =
+\f2\b \cf5 'block'
+\f1\b0 \cf0 ;
+\f2\b \cf5 \cb2 " \cf3 onmouseout=\cf5 "
+\f1\b0 \cf0 \cb1 remind.
+\f2\b \cf6 style
+\f1\b0 \cf0 .
+\f2\b \cf6 display
+\f1\b0 \cf0 =
+\f2\b \cf5 'none'
+\f1\b0 \cf0 ;
+\f2\b \cf5 \cb2 "
+\f1\b0 \cf0 >\cb1 \
+    result!\
+\cb2 </
+\f2\b \cf4 hi
+\f1\b0 \cf0 >\cb1 \
+\cb2 <
+\f2\b \cf4 img \cf3 src=\cf5 "1.jpg" \cf3 alt=\cf5 "sample image" \cf3 id=\cf5 "sample" \cf3 style=\cf5 "\cf3 \cb1 width
+\f1\b0 \cf0 : \cf3 100\cf0 %
+\f2\b \cf5 \cb2 " \cf3 onclick=\cf5 "
+\f4\i\b0 \cf0 \cb1 change
+\f1\i0 ()
+\f2\b \cf5 \cb2 " \cf3 onmouseover=\cf5 "
+\f1\b0 \cf0 \cb1 remind.
+\f2\b \cf6 style
+\f1\b0 \cf0 .
+\f2\b \cf6 display
+\f1\b0 \cf0 =
+\f2\b \cf5 'block'
+\f1\b0 \cf0 ;
+\f2\b \cf5 \cb2 " \cf3 onmouseout=\cf5 "
+\f1\b0 \cf0 \cb1 remind.
+\f2\b \cf6 style
+\f1\b0 \cf0 .
+\f2\b \cf6 display
+\f1\b0 \cf0 =
+\f2\b \cf5 'none'
+\f1\b0 \cf0 ;
+\f2\b \cf5 \cb2 "
+\f1\b0 \cf0 >\cb1 \
+\cb2 <
+\f2\b \cf4 div \cf3 id = \cf5 "remind"
+\f1\b0 \cf0 >\cb1 \
+    Click the picture for the next page!\
+\cb2 </
+\f2\b \cf4 div
+\f1\b0 \cf0 >\cb1 \
+\cb2 </
+\f2\b \cf4 body
+\f1\b0 \cf0 >\cb1 \
+\cb2 </
+\f2\b \cf4 html
+\f1\b0 \cf0 >\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \cb1 \
+}
