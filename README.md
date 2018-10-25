@@ -42,6 +42,7 @@ Visualization
 		Build a time dependent signal processing CNN
 			Predict based on growth rates given by UN/USA census based on population
 		Apply to other countries!
+		
 ------Visualiation
 		Take dataframe with results and graph them
 			Use Tableau to build time dependent visualizations
